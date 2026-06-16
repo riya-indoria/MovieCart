@@ -14,7 +14,7 @@ const MovieCart = () => {
     setLoading(true);
     const res = await fetch(`https://www.omdbapi.com/?s=${search}&apikey=70b40d03`);
     const data = await res.json();
-
+    console.log(data);
     setMovies(data.Search || []);
     setLoading(false);
   };
