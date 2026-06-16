@@ -52,7 +52,7 @@ const MovieCart = () => {
       <section className="home"></section>
 
       <form onSubmit={handleSubmit}>
-        <input type="search" placeholder="Search movie here" value={search} onChange={changeHandle} />
+        <input type="search" placeholder="Search movie here (at least 3 characters)" value={search} onChange={changeHandle} />
       </form>
 
       <br />
