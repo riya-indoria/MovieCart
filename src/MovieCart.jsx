@@ -82,7 +82,7 @@ const MovieCart = () => {
             </div>
           ))
         ) : (
-          <p>Please enter at least 3 characters</p>
+          <p>No movie found</p>
         )}
       </div>
     </>
